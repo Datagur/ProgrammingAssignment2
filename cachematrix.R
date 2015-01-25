@@ -1,6 +1,6 @@
 ## The purpose of this script is to create a matrices and cache them. 
-## It checks if the inverse of it is computed and cached before re-calculating 
-##the inverse
+## It checks if the inverse of it is computed and cached before re-calculating.. 
+## the inverse
 
 ## This function creates a matirx with functions to create and cache
 
@@ -20,7 +20,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## This function returns the inverse of the matrix once created above. 
-##If avaialble it retrieves the matrix inverse
+## If avaialble it retrieves the matrix inverse.
 ## If not available it computes and returns it
 
 cacheSolve <- function(x, ...) {
